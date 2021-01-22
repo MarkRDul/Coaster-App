@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/ride_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="12dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/ride_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="12dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/ride_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="12dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/ride_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="12dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/ride_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="12dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+</LinearLayout>

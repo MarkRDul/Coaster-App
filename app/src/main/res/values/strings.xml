@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Hershey Park Rides and Wait Times</string>
+    <string name="begin">Begin</string>
+    <string name="next_button">Next Set</string>
+    <string name="back">Back</string>
+</resources>
